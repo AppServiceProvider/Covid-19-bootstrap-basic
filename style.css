@@ -1,0 +1,212 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600&display=swap');
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.navbar-brand {
+    font-size: 2.188rem;
+    text-transform: uppercase;
+    text-shadow: -3px 0px 12px rgba(206, 89, 55, 0.64);
+
+
+
+}
+
+.heading_1 {
+    text-transform: uppercase;
+    font-weight: bold;
+    opacity: .8
+}
+
+.heading_2 {
+    opacity: 0.9
+}
+
+.nav-link {
+    margin: 16px;
+    font-weight: bold
+}
+
+.active {}
+
+.nav-link:hover {
+    color: #000000 !important;
+
+}
+
+.btn {
+    margin-right: 10px !important;
+}
+
+#bg_btn {
+    color: white !important;
+}
+
+#bg_btn:hover {
+    color: white !important;
+    background-color: #007BFF !important;
+
+
+}
+
+.btn {
+    -webkit-box-shadow: 0px 0px 18px -9px rgba(0, 0, 0, 0.61) !important;
+    -moz-box-shadow: 0px 0px 18px -9px rgba(0, 0, 0, 0.61) !important;
+    box-shadow: 0px 0px 18px -9px rgba(0, 0, 0, 0.61) !important;
+}
+
+.container-fluid {
+    background:  url("https://images.unsplash.com/photo-1577368211130-4bbd0181ddf0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1342&q=80");
+   
+
+   /*  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.6)), url("https://images.unsplash.com/photo-1577368211130-4bbd0181ddf0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1342&q=80");
+    */ background-repeat: no-repeat;
+    background-size: cover;
+    height: 18.75rem;
+    overflow: hidden;
+    background-position: center;
+    background-attachment: fixed;
+
+}
+/* advance works before after*/
+.container-fluid{
+ 
+    position: relative;
+    cursor: pointer;
+}
+
+.container-fluid:before{
+    content: "";
+    position: absolute;
+    background-color:rgba(0, 0, 0, 0.6);
+    top: 0;
+    left: 0;
+    height: 50%;
+    width: 100%;
+    transition: .60s ease-in-out;
+}
+.container-fluid:after{
+    content: "";
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.6);
+    bottom: 0;
+    right: 0;
+    height: 50%;
+    width: 100%;
+     transition: .60s ease-in-out; 
+}
+
+.container-fluid:hover:before{
+    height: 0;
+    transition: .60s ease-in-out;
+    -webkit-transition: .60s ease-in-out;
+     
+}
+.container-fluid:hover:after{
+    height: 0;
+    transition: .60s ease-in-out;
+      -webkit-transition: .60s ease-in-out;
+}
+/* advance works before after*/
+
+
+
+
+
+
+.section_title {
+    margin-top: 5rem !important;
+}
+
+.section_title h1 {
+    color: white !important;
+    text-transform: uppercase
+}
+
+.section_title p {
+    color: white !important;
+    opacity: 0.7;
+}
+
+#support_section p {
+    text-align: center;
+    
+}
+#support_section h1{
+    text-align: center;
+    
+}
+.fa-user-md {
+    align-items: center;
+
+}
+#support_section h1{
+    font-weight: 500;
+    
+}
+#support_section p{
+    opacity: 0.9;
+}
+
+#fluid_container{
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.6)),url(https://images.unsplash.com/photo-1527788263495-3518a5c1c42d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1383&q=80)!important;
+   
+    height:30rem;
+    background-repeat: no-repeat!important;
+    background-size: cover!important;
+    width: 100%;
+    background-attachment: fixed!important;
+}
+#donate h3
+{
+    color: white!important;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 2rem;
+}
+#donate p{
+    color: white!important;
+    opacity: 0.8;
+    font-family: serif;
+}
+#donate h3:after{
+    content: "";
+    display: block;
+    background: white;
+    width: 15rem;
+    height: .1rem
+
+}
+.section_4{
+    background-color:  #f0f0f0
+        !important;
+}
+.section_4 h2{
+    text-transform: uppercase;
+    
+}
+.section_4 i
+{
+    color: red!important;
+}
+.section_4 small{
+    cursor: pointer;
+}
+footer h3{
+    text-transform: uppercase;
+}
+footer h4{
+    text-transform:capitalize;
+    
+
+}
+.social i
+{
+    color:#0069D9!important;
+    cursor: pointer;
+    font-size: 1.5rem;
+    
+}
